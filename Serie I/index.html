@@ -1,0 +1,84 @@
+<!-- Josue David Garcia Arango, 0909-21-11375 -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> 
+    
+    <title>Serie I | Josue Arango </title>
+
+</head>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+
+    <body>
+
+
+        <form  class="form-register">  
+			<h4>Complete el formulario para calcular la tarifa de su mercaderia</h4>
+			<br>
+			<br>
+			<select class="controls" name="" id="list" onchange="getSelectValue () ;">
+				<option disabled>Seleccione el tipo de mercaderia que desea enviar</option>
+				<option value="0">Documentos</option>
+						<option value="Paqueteria">Paqueteria</option>
+						<option value="Mobiliario">Mobiliario</option>
+						<option value="Repuestos">Repuestos</option>
+						<option value="Art. electronicos">Art. electronicos</option>
+			</select>
+			<br>
+			<br>
+			 <input class="select2" type="button" value="CONFIRMAR SELECCION" onclick="alert( ejecutar(1,2) );">  <br>  <br> 
+
+			<h1 class="texto2">¿Conoce el peso del articulo?</h1>
+
+			<input class="control" type="button" value="SI" onclick="alert( ejecutar1(1,2) );">  <input class="control" type="button" value="NO" onclick="alert( ejecutar2(1,2) );">
+
+			<br>
+			<br>
+
+			<input class="controls" type="text" id="peso" placeholder="Ingrese el peso">
+			<br>
+			<br>
+
+			<h1 class="texto2" >Actualmente la empresa ha iniciado operaciones con sucursales en las siguientes ubicaciones</h1>
+
+			<img src="imagen.png" alt="" class="img">
+
+			<br>
+			<br>
+			<select class="controls" name="" id="list1" onchange="getSelectValue1 () ;">
+				<option disabled>Seleccione la sucursal</option>
+				<option value="10">Guatemala</option>
+						<option value="300">Izabal</option>
+						<option value="460">Peten</option>
+						<option value="178">Chiquimula</option>
+						<option value="200">Retalhuleu</option>
+			</select>
+			<br>
+			<br>
+			 <input class="select2" type="button" value="CONFIRMAR SELECCION" onclick="alert( ejecutar3(1,2) );">  <br>  <br> 
+
+				<input class="boton" type="button" value="CALCULAR TARIFA TOTAL A PAGAR" onclick="alert( ejecutar4(1,2) );">  <br>  <br> 
+
+			
+
+        </form>
+		
+		
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    </body>
+
+	<script src="app.js"></script>
+</html>

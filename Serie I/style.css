@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+
+}
+
+body {
+    background-image: linear-gradient(rgb(5,7,12,0.75), rgb(5,7,12,0.75)) ,url(https://usecim.net/wp-content/uploads/2021/01/SeguridadMensajeri%CC%81a.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20cm;
+}
+
+
+
+.texto2{
+    color: aliceblue;
+    text-align: center;
+    margin: 16px auto;
+    font-size: 18px;
+}
+
+.img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+.form-register {
+width: 400px;
+background:rgba(5, 7, 12, 0.30);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'calibri';
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+color: white;
+font-size: 22px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.controls {
+width: 100%;
+background:rgba(5, 7, 12, 0.20);
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid rgb(151, 207, 255);
+font-family: 'calibri';
+font-size: 18px;
+color: rgb(141, 139, 139);
+}
+
+
+
+.control {
+   width: 49%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: tomato;
+   
+    
+    }
+
+    .boton{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        background-color: tomato;
+       
+    }
+
+.select2{
+    width: 59%;
+    padding: 10px;
+    margin-bottom: 16px;
+
+border-radius: 4px;
+margin-bottom: 16px;
+font-family: 'calibri';
+font-size: 18px;
+  
+}
